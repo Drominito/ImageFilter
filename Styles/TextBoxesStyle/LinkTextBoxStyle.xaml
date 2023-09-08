@@ -1,0 +1,109 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="{x:Type TextBox}"
+           x:Name="LinkTextBoxStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TextBox">
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Text="Main-Link"
+                                 Grid.Column="1"
+                                 Foreground="White"
+                                 />
+
+                        <!--<Border Grid.Column="1"
+                                Grid.ColumnSpan="10"
+                                BorderBrush="Blue"
+                                BorderThickness="2"
+                                MinHeight="50"
+                                CornerRadius="1"
+                                >
+
+                        </Border>-->
+
+
+                        <!--<StackPanel Grid.ColumnSpan="2´">
+                            
+                            <TextBox x:Name="MainLinkInput"
+                                     Text="{TemplateBinding Text}"
+                                     TextWrapping="Wrap"
+                                     FontSize="10"
+                                     Foreground="White"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Center"
+                                     >
+
+                            </TextBox>
+
+                            <TextBlock Text="P:\Modellierung\2D\Aseprite\Projekte\Farben\TestFarben\TextPixels_02.png"
+                                       TextWrapping="Wrap"
+                                       FontSize="20"
+                                       Foreground="White"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       IsHitTestVisible="False"
+                                       >
+
+                                --><!--<TextBlock.Style>
+                                    <Style TargetType="{x:Type TextBlock}">
+
+                                        <Style.Triggers>
+
+                                            <DataTrigger Binding="{Binding Text, ElementName=MainLinkInput}" Value="">
+                                                <Setter Property="Visibility" Value="Visible"/>
+                                            </DataTrigger>
+
+
+
+
+                                        </Style.Triggers>
+
+                                        <Setter Property="Visibility" Value="Hidden"/>
+
+
+
+                                    </Style>
+
+                                </TextBlock.Style>--><!--
+
+
+                            </TextBlock>
+                        </StackPanel>-->
+
+
+
+                    </Grid>
+
+                </ControlTemplate>
+
+
+
+            </Setter.Value>
+
+
+
+
+
+
+        </Setter>
+
+
+
+    </Style>
+    
+</ResourceDictionary>

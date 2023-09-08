@@ -15,3 +15,5 @@
 *  Convert it also in VideoProgram (Several Images)
   
 *  AND MAKE TO SHOW FPS
+
+*  And maybe an API to the camera to make real time Filters
